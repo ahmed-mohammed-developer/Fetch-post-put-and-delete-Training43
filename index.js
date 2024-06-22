@@ -68,7 +68,7 @@ class FetchWrapper{
 
   }
 }
-*/
+
 class FetchWrapper{
   constructor(baseUrl){
     this.baseUrl = baseUrl;
@@ -78,3 +78,13 @@ class FetchWrapper{
     .then(response => response.json())
   }
 }
+  */
+function isEvenOrOdd(num) {
+  // write your code here
+  if (num % 2 === 0){
+    return "even"
+  }
+  return "odd"
+};
+
+console.log(isEvenOrOdd(200))
